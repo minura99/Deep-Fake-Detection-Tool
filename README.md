@@ -43,17 +43,18 @@ Intuitive UI: A clean and modern interface for seamless user experience.
 2. Sign Up: Click the signup and Create a new account</br>
 
 3. Login: Log in using your credentials.
+   
    ![Example Image 1](Images/Home.png) </br>
 
-4. Deep Fake Detection: Navigate to the Deep Fake Detection Tool
+5. Deep Fake Detection: Navigate to the Deep Fake Detection Tool
 
    ![Example Image 1](Images/deepfakesec.png) </br>
 
-5. upload an image, and click "Scan" to get the prediction.
+6. upload an image, and click "Scan" to get the prediction.
 
    ![Example Image 1](Images/result.png) </br>
    
-6. History: View your scan history by clicking the "History" button.
+7. History: View your scan history by clicking the "History" button.
    
    ![Example Image 1](Images/history.png) </br>
    
@@ -61,7 +62,7 @@ Intuitive UI: A clean and modern interface for seamless user experience.
 1. deepfake-detection-tool/
    ```bash
    
-   │
+   │ deepfake-detection-tool/
    ├── app.py # Main application script
    ├── dfscanner.py # Deep fake detection logic
    ├── setup_db.py # Script to initialize the database
@@ -82,8 +83,8 @@ Intuitive UI: A clean and modern interface for seamless user experience.
 ## Contributing
 We welcome contributions! Please fork the repository and submit a pull request for any features, bug fixes, or improvements.
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+## Acknowledgments
 Thank you to the contributors of TensorFlow, Keras, Flask, and OpenCV for providing the tools and libraries that make this project possible.
