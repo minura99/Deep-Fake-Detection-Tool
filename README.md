@@ -82,8 +82,8 @@ Intuitive UI: A clean and modern interface for seamless user experience.
 
 ## Contributing
 We welcome contributions! Please fork the repository and submit a pull request for any features, bug fixes, or improvements.</br>
-IT21340864 - EDIRISINGHEGE E M N 
-IT21345678 - Anupama K G A
+###IT21340864 - EDIRISINGHEGE E M N </br>
+###IT21345678 - Anupama K G A
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
