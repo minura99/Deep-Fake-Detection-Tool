@@ -40,10 +40,10 @@ Intuitive UI: A clean and modern interface for seamless user experience.
     # Open your web browser and navigate to http://127.0.0.1:5000/.
   ![Example Image 1](Images/logscreen.png) </br>
 
-2. Sign Up: Click the signup and Create a new account
+2. Sign Up: Click the signup and Create a new account</br>
 
 3. Login: Log in using your credentials.
-   ![Example Image 1](Images/history.png) </br>
+   ![Example Image 1](Images/Home.png) </br>
 
 4. Deep Fake Detection: Navigate to the Deep Fake Detection Tool
 
