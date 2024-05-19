@@ -38,12 +38,24 @@ Intuitive UI: A clean and modern interface for seamless user experience.
     ```bash
     $ flask run
     # Open your web browser and navigate to http://127.0.0.1:5000/.
-2. Sign Up: Click the signup and Create a new account
-![Example Image 1](images/logscreen.png)
-3. Login: Log in using your credentials.
-4  Deep Fake Detection: Navigate to the Deep Fake Detection Tool, upload an image, and click "Scan" to get the prediction.
-5. History: View your scan history by clicking the "History" button.
+![Example Image 1](Images/logscreen.png) </br>
 
+2. Sign Up: Click the signup and Create a new account
+
+3. Login: Log in using your credentials.
+[Example Image 1](Images/Home.png) </br>  
+
+4. Deep Fake Detection: Navigate to the Deep Fake Detection Tool
+
+![Example Image 1](Images/deepfakesec.png) </br>
+
+5. upload an image, and click "Scan" to get the prediction.
+
+![Example Image 1](Images/Images/result.png) </br>
+   
+6. History: View your scan history by clicking the "History" button.
+   
+![Example Image 1](Images/history.png) </br>
    
 ## Project Structure
 1. deepfake-detection-tool/
