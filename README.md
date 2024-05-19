@@ -28,11 +28,12 @@ Intuitive UI: A clean and modern interface for seamless user experience.
 4. Install the required packages:
    ```bash
    $  pip install -r requirements.txt
+## Dataset
 5. Run the Flask application:
     ```bash
     $ flask run
     # Open your web browser and navigate to http://127.0.0.1:5000/.
-## Dataset
+
 ## Usage
 Sign Up: Create a new account using the signup page.
 
