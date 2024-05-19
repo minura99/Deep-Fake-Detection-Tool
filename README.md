@@ -1,58 +1,41 @@
 # Deep-Fake-Detection-Tool
 Deep Fake Detection Tool
-Overview
+## Overview
 Welcome to the Deep Fake Detection Tool! This project aims to provide a robust and user-friendly web application for detecting deepfake images. Leveraging the power of deep learning, our tool helps users identify whether an image is real or a deepfake.
 
-Features
+## Features
 User Authentication: Secure login and signup pages to manage user access.
 Deep Fake Detection: Upload an image to determine whether it is real or a deepfake using our trained model.
 Face Recognition Tool: An additional tool to recognize faces in images.
 History Logging: Keep track of all scans performed with timestamps and results.
 Intuitive UI: A clean and modern interface for seamless user experience.
-Technology Stack
-Backend: Flask framework
-Frontend: HTML, CSS, JavaScript
-Database: SQLite for storing user credentials and scan history
-Model: TensorFlow/Keras for deepfake detection
-Getting Started
-Prerequisites
-Python 3.x
-Flask
-TensorFlow/Keras
-OpenCV
-SQLite
-Installation
-Clone the repository:
+## Technology Stack
+##### Backend: Flask framework
+##### Frontend: HTML, CSS, JavaScript
+##### Database: SQLite for storing user credentials and scan history
+##### Model: TensorFlow/Keras for deepfake detection
+## Getting Started
+1. Clone the repository:
+   ```bash
+   $ git clone https://github.com/minura99/deep-fake-detection-tool.git
+2. ```bash
+   cd deepfake-detection-tool
+3. Create and activate a virtual environment:
+   ```bash
+   $ python -m venv venv
+   $ venv\Scripts\activate  # On Windows Users
+   $ source venv/bin/activate # On Linux Users
+4. Install the required packages:
+   ```bash
+   $  pip install -r requirements.txt
+5. Run the Flask application:
+    ```bash
+    $ flask run
+    # Open your web browser and navigate to http://127.0.0.1:5000/.
 
-bash
-Copy code
-git clone https://github.com/yourusername/deepfake-detection-tool.git
-cd deepfake-detection-tool
-Create and activate a virtual environment:
-
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-Install the required packages:
-
-bash
-Copy code
-pip install -r requirements.txt
-Set up the database:
-
-bash
-Copy code
-python setup_db.py
-Run the Flask application:
-
-bash
-Copy code
-flask run
-Open your web browser and navigate to http://127.0.0.1:5000/.
-
-Usage
+## Usage
 Sign Up: Create a new account using the signup page.
+
 Login: Log in using your credentials.
 Deep Fake Detection: Navigate to the Deep Fake Detection Tool, upload an image, and click "Scan" to get the prediction.
 History: View your scan history by clicking the "History" button.
