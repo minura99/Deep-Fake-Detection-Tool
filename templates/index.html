@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Welcome, {{ username }}</h2>
+    <div class="button-container">
+        <a href="{{ url_for('deepfake_detection') }}"><button class="tool-button">Deep Fake Detection Tool</button></a>
+        <a href="{{ url_for('face_recognition') }}"><button class="tool-button">Face Recognition Tool</button></a>
+    </div>
+</div>
+{% endblock %}

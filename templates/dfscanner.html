@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Fake Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='dfstyle.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Deep Fake Detection</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <div class="upload-section">
+                <label for="image">Browse</label>
+                <input type="file" name="image" id="image" required>
+            </div>
+            <button type="submit" class="scan-button">Scan</button>
+        </form>
+        <!-- {% if prediction %} -->
+            <div class="result-section">
+                <h2>Prediction: {{ prediction }}</h2>
+            </div>
+        <!-- {% endif %} -->
+    </div>
+
+    <br>
+
+    <form method="POST" action="{{ url_for('history') }}">
+        <button type="submit" class="history-button">History</button>
+    </form>
+ <br><br>
+    <form action="{{ url_for('logout') }}" method="post">
+        <button type="submit">Logout</button>
+    </form>
+</body>
+</html>
