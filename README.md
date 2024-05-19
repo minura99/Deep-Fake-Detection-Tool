@@ -28,39 +28,46 @@ Intuitive UI: A clean and modern interface for seamless user experience.
 4. Install the required packages:
    ```bash
    $  pip install -r requirements.txt
-## Dataset
-5. Run the Flask application:
+## Training the Model
+1. Collect the Dataset
+2. Train the model using dataset
+    ```bash
+   $ python train_model.py "Dataset Image path"  "Training model Directory"
+## Usage
+1. Run the Flask application:
     ```bash
     $ flask run
     # Open your web browser and navigate to http://127.0.0.1:5000/.
+2. Sign Up: Click the signup and Create a new account
+![Example Image 1](images/log screen.png)
+3. Login: Log in using your credentials.
+4  Deep Fake Detection: Navigate to the Deep Fake Detection Tool, upload an image, and click "Scan" to get the prediction.
+5. History: View your scan history by clicking the "History" button.
 
-## Usage
-Sign Up: Create a new account using the signup page.
+   
+## Project Structure
+1. deepfake-detection-tool/
+   ```bash
+   
+   │
+   ├── app.py # Main application script
+   ├── dfscanner.py # Deep fake detection logic
+   ├── setup_db.py # Script to initialize the database
+   ├── static/
+   │ ├── dfstyle.css # CSS for the deep fake detection page
+   │ ├── index_style.css # CSS for the index page
+   │ ├── style.css # CSS for the login and signup pages
+   ├── templates/
+   │ ├── base.html # Base template
+   │ ├── index.html # Index page
+   │ ├── login.html # Login page
+   │ ├── signup.html # Signup page
+   │ ├── dfscanner.html # Deep fake detection page
+   │ ├── history.html # History page
+   └── requirements.txt
+   └── README.md # Project introduction and setup instructions
 
-Login: Log in using your credentials.
-Deep Fake Detection: Navigate to the Deep Fake Detection Tool, upload an image, and click "Scan" to get the prediction.
-History: View your scan history by clicking the "History" button.
-Project Structure
-plaintext
-Copy code
-deepfake-detection-tool/
-│
-├── app.py                 # Main application script
-├── dfscanner.py           # Deep fake detection logic
-├── setup_db.py            # Script to initialize the database
-├── static/
-│   ├── dfstyle.css        # CSS for the deep fake detection page
-│   ├── index_style.css    # CSS for the index page
-│   ├── style.css          # CSS for the login and signup pages
-├── templates/
-│   ├── base.html          # Base template
-│   ├── index.html         # Index page
-│   ├── login.html         # Login page
-│   ├── signup.html        # Signup page
-│   ├── dfscanner.html     # Deep fake detection page
-│   ├── history.html       # History page
-└── README.md              # Project introduction and setup instructions
-Contributing
+## Contributing
 We welcome contributions! Please fork the repository and submit a pull request for any features, bug fixes, or improvements.
 
 License
