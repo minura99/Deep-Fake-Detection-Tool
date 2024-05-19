@@ -1,0 +1,30 @@
+2024-05-18 18:10:59 - Image: uploads\fake_9.jpg - Prediction: Real
+2024-05-18 18:11:53 - Image: uploads\real_42.jpg - Prediction: Fake
+2024-05-18 18:12:03 - Image: uploads\fake_38.jpg - Prediction: Fake
+2024-05-18 18:12:10 - Image: uploads\fake_38.jpg - Prediction: Fake
+2024-05-18 18:12:59 - Image: uploads\real_0.jpg - Prediction: Real
+2024-05-18 18:13:04 - Image: uploads\real_1.jpg - Prediction: Real
+2024-05-18 18:13:11 - Image: uploads\Screenshot 2024-05-18 130106.png - Prediction: Real
+2024-05-18 18:13:20 - Image: uploads\Screenshot 2024-05-18 130125.png - Prediction: Real
+2024-05-18 18:22:02 - Image: uploads\Screenshot 2024-05-18 130125.png - Prediction: Real
+2024-05-19 10:29:44 - Image: uploads\Screenshot 2024-05-18 130125.png - Prediction: Real
+2024-05-19 10:32:42 - Image: uploads\real_12.jpg - Prediction: Real
+2024-05-19 10:32:49 - Image: uploads\real_133.jpg - Prediction: Real
+2024-05-19 10:32:55 - Image: uploads\real_21.jpg - Prediction: Real
+2024-05-19 10:32:58 - Image: uploads\real_21.jpg - Prediction: Real
+2024-05-19 10:33:07 - Image: uploads\fake_0.jpg - Prediction: Fake
+2024-05-19 10:33:12 - Image: uploads\fake_45.jpg - Prediction: Real
+2024-05-19 10:33:16 - Image: uploads\fake_22.jpg - Prediction: Real
+2024-05-19 10:33:27 - Image: uploads\fake_115.jpg - Prediction: Real
+2024-05-19 10:33:30 - Image: uploads\fake_115.jpg - Prediction: Real
+2024-05-19 10:33:37 - Image: uploads\fake_101.jpg - Prediction: Real
+2024-05-19 10:33:47 - Image: uploads\real_27.jpg - Prediction: Real
+2024-05-19 10:34:03 - Image: uploads\real_113.jpg - Prediction: Real
+2024-05-19 10:34:32 - Image: uploads\real_11.jpg - Prediction: Fake
+2024-05-19 10:34:36 - Image: uploads\real_21.jpg - Prediction: Real
+2024-05-19 10:34:43 - Image: uploads\fake_8.jpg - Prediction: Real
+2024-05-19 10:34:46 - Image: uploads\fake_18.jpg - Prediction: Fake
+2024-05-19 10:34:49 - Image: uploads\fake_19.jpg - Prediction: Fake
+2024-05-19 10:34:53 - Image: uploads\fake_26.jpg - Prediction: Fake
+2024-05-19 10:34:58 - Image: uploads\real_104.jpg - Prediction: Fake
+2024-05-19 10:35:03 - Image: uploads\real_104.jpg - Prediction: Fake

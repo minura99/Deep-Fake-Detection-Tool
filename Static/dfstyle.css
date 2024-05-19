@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upload-section label {
+    background-color: #5bc0de;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.upload-section label:hover {
+    background-color: #31b0d5;
+}
+
+.upload-section input[type="file"] {
+    display: none;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.result-section, .history-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result-section h2, .history-section h2 {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.history-button {
+    background-color: #f0ad4e;
+}
+
+.history-button:hover {
+    background-color: #ec971f;
+}
+
+.back-button {
+    background-color: #0275d8;
+}
+
+.back-button:hover {
+    background-color: #025aa5;
+}
